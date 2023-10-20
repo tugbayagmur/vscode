@@ -1,0 +1,36 @@
+body{
+    height:100vh;
+    display:grid;
+    place-items:center;
+    background:#F0CD48;
+    box-sizing:border-box;
+  }
+  div{
+    width:100px;
+    height:100px;
+    background:#5F3829;
+    position:relative;
+    transform:rotate(45deg);
+  }
+  div:before{
+    content:"";
+    display:block;
+    width:400px;
+    height:100px;
+    background:#D86F45;
+    position:absolute;
+    top:-100%;
+    left:-120;
+  
+  }
+  div:after{
+    content:"";
+    display:block;
+    width:400px;
+    height:100px;
+    background:#D86F45;
+    position:absolute;
+    bottom:-100%;
+    right:-120;
+  
+  }
